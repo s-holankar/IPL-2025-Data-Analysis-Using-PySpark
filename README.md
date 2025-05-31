@@ -1,5 +1,7 @@
 # IPL-2025-Data-Analysis-Using-PySpark
 
+# This project showcases how to perform scalable, distributed data analysis on the **Indian Premier League (IPL)** dataset using **Apache Spark (PySpark)**.
+
 # 🏏 IPL Data Analysis Project
 
 This project involves Exploratory Data Analysis (EDA) on the Indian Premier League (IPL) dataset using PySpark. It uncovers key insights into teams, players, and match statistics to better understand trends and performance in the tournament.
