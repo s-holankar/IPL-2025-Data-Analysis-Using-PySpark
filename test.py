@@ -18,7 +18,7 @@ spark = SparkSession.builder \
     .appName("IPL 2025") \
     .getOrCreate()
     
-df = spark.read.csv("file:///home/sisr6adm/analytics/userapplications/P55058192/_Projects_IPL_2025_/matches.csv", header = True, inferSchema=True)
+df = spark.read.csv("file:///<your-folder-path>/Projects_IPL_2025_/matches.csv", header = True, inferSchema=True)
 
 # df.show(100, False)
 
@@ -284,7 +284,5 @@ result = df.groupBy("team_bowled_first").count().orderBy("count", ascending=Fals
 
 # Show the result
 result.show()
-
-
 
 # spark.stop()
